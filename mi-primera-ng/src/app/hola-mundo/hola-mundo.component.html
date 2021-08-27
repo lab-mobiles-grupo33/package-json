@@ -4,3 +4,13 @@
 <p>
     {{mensaje}}
 </p>
+
+<p *ngIf="testBoolean">holaaa</p>
+
+<ul>
+    <li *ngFor="let numero of numerosArreglo">
+        {{numero}}
+    </li>
+</ul>
+
+<button (click)="triggerClick">haz click!</button>
